@@ -42,7 +42,7 @@ FLUSH PRIVILEGES;
 
 ## Automatische Initialisierung der Datenbank
 
-Beim Start der Anwendung erzeugt Hibernate die Tabellen automatisch. Anschließend wird die Datei
+Beim ersten Abruf der Emissionstabelle erzeugt Hibernate die Tabellen automatisch. Anschließend wird die Datei
 
 ```text
 src/main/resources/import.sql
